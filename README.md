@@ -1,4 +1,7 @@
-# test coverage for  [node-etcd (v5.0.3)](https://github.com/stianeikeland/node-etcd#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-node-etcd.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-etcd) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-etcd.svg)](https://travis-ci.org/npmtest/node-npmtest-node-etcd)
+# npmtest-node-etcd
+
+#### test coverage for  [node-etcd (v5.0.3)](https://github.com/stianeikeland/node-etcd#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-node-etcd.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-etcd) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-etcd.svg)](https://travis-ci.org/npmtest/node-npmtest-node-etcd)
+
 #### etcd library for node.js (etcd v2 api)
 
 [![NPM](https://nodei.co/npm/node-etcd.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/node-etcd)
