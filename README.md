@@ -1,6 +1,6 @@
 # npmtest-node-etcd
 
-#### test coverage for  [node-etcd (v5.0.3)](https://github.com/stianeikeland/node-etcd#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-node-etcd.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-etcd) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-etcd.svg)](https://travis-ci.org/npmtest/node-npmtest-node-etcd)
+#### basic test coverage for  [node-etcd (v5.0.3)](https://github.com/stianeikeland/node-etcd#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-node-etcd.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-etcd) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-etcd.svg)](https://travis-ci.org/npmtest/node-npmtest-node-etcd)
 
 #### etcd library for node.js (etcd v2 api)
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-node-etcd/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-node-etcd/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-node-etcd/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-node-etcd/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-etcd/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-etcd/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-node-etcd/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-node-etcd/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-etcd/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-etcd/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-node-etcd/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-node-etcd/build/coverage.html/index.html)
 
@@ -91,7 +91,8 @@
         "test": "mocha --compilers coffee:coffee-script/register test/",
         "watch": "mocha --compilers coffee:coffee-script/register --watch"
     },
-    "version": "5.0.3"
+    "version": "5.0.3",
+    "bin": {}
 }
 ```
 
